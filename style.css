@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; /* browser e kisu margin amni e deya thake oita soraner jnne margin 0 korsi */
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    padding: 5%;
+    background-repeat: no-repeat;   
+}
+.top-banner{
+    background-image: url(wave.svg);
+}
+.half-width{
+    width: 50%;
+}
+img{
+    width: 80%;
+}
+.link{
+    text-decoration: none;
+    border-radius: 10px;
+    background-image: linear-gradient(blue, blueviolet);
+    color: white;
+    font-size: 20px;
+}
+.text-white{
+    color: white;
+}
+.specialize-head{
+    text-align: center;
+    padding: 0 20%; 
+}
+.parent{
+   display: flex;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(#00f,cyan) 0 100%;
+}
+
